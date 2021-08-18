@@ -1,0 +1,174 @@
+.container {
+    max-width: 75%;
+    
+}
+
+@media screen and (max-width: 780px) {
+    div.container {
+        max-width: 100%;
+    }
+
+    
+  }
+
+
+/* -------------------------------------------------------------------- start home page --------------------------------------*/
+/*---------------------------------------------------------------------- navbar ----------------------------------------------- */
+.bg-primary{
+    bacbackground: #ff282c; 
+    background: -moz-linear-gradient(left,  #ff282c 0%, #3626a0 41%); 
+    background: -webkit-linear-gradient(left,  #ff282c 0%,#3626a0 41%);
+    background: linear-gradient(to right,  #ff282c 0%,#3626a0 41%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff282c', endColorstr='#3626a0',GradientType=1 );
+}
+
+
+.head_date{
+	color:#ffffff;
+    text-align: center;
+    font-size:15px;
+}
+
+.head_ad{
+	color:#ffffff;
+	text-align: center;
+}
+
+.head_breakingnews{
+    color:#ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.head_headline{
+	color:#ffffff;
+    text-align: center;
+    margin-top:5px;
+}
+.paragraph_one{
+	text-align: justify;
+	font-size: 15px;
+}
+
+.head_news{
+    font-size: 15px;
+    color:#ffffff;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+.ad_banner{
+    color:#ff0000;
+    text-align: center;
+    /* margin-top:5px; */
+
+    font-size: 60px;
+}
+
+
+.new_bottom .cat_type {
+    font-size: 12px;
+    font-weight: lighter;
+    padding:5px;
+    padding-bottom: 0px;
+}
+
+
+
+.bg-light {
+	background:linear-gradient(to left,red,blue);
+}
+
+/* .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color:#ffffff;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.list-group-item {
+	background-color: #E4F2EF;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #df00fc;
+    color:#ffffff;
+}
+
+
+/* .nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    background:linear-gradient(to right,blue, red);
+} */
+
+
+.cat_type{
+    margin-top:0.5rem;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ footer section start here ------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------- footer social icon style starts here -------------------------------------- */
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+	border:circle;
+    color: #292929;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+	margin: 22px 12px 10px 12px;
+	padding-top: 3rem;
+}
+
+.social-icon li a:hover {
+    border-color: #bfba55;
+    color: #bfba55;
+    transform: scale(1.1);
+}
+
+
+
+.head_recentnews{
+    font-size:20px;
+    font-weight: 500;
+    color:#ffffff;
+    text-align: center;
+}
+
+/* -------------------------------------------------------- footer social icon style end here -------------------------------------- */
+
+
+
